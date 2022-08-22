@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">    <title>Bible Study</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <button class="mobile-nav-toggle"><span class="sr-only">Menu</span></button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false">
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#study">Study</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="">Interesting</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero-container">
+                <div class="intro-content">
+                    <p>"Before the mountains were born
+                        or you brought forth the whole world,
+                        from everlasting to everlasting you are God." - Psalm 90:2</p>
+                </div>
+            </div>
+            <div class="container" id="about">
+                <div class="heading">About Us</div>
+                <div class="even-columns">
+                    <div class="left"><img
+                            src="images/group.JPG"
+                            alt=""></div>
+                    <div class="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec porta neque.
+                        Fusce at erat a neque facilisis tempor. Ut eget imperdiet nisi, eget lobortis lectus. Sed nec
+                        viverra diam. Suspendisse pellentesque tellus nec mauris ultrices luctus. Donec nulla nisi,
+                        congue sed ullamcorper vel, molestie eu sapien. Pellentesque turpis leo, varius sit amet mauris
+                        id, vehicula lobortis turpis. Integer interdum libero at massa mattis, sit amet sollicitudin
+                        diam fringilla. Ut consectetur nisi ut ligula porta semper. Aliquam erat volutpat. Aliquam erat
+                        volutpat. In hac habitasse platea dictumst. Vivamus at tortor bibendum, sagittis diam eget,
+                        laoreet nunc. Pellentesque tincidunt nec tellus a venenatis. Nullam eget dignissim mauris.</div>
+                </div>
+            </div>
+            <div class="container" id="study">
+                <div class="heading">Current Study</div>
+                <div class="even-columns">
+                    <div class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec porta neque.
+                        Fusce at erat a neque facilisis tempor. Ut eget imperdiet nisi, eget lobortis lectus. Sed nec
+                        viverra diam. Suspendisse pellentesque tellus nec mauris ultrices luctus. Donec nulla nisi,
+                        congue sed ullamcorper vel, molestie eu sapien. Pellentesque turpis leo, varius sit amet mauris
+                        id, vehicula lobortis turpis. Integer interdum libero at massa mattis, sit amet sollicitudin
+                        diam fringilla. Ut consectetur nisi ut ligula porta semper. Aliquam erat volutpat. Aliquam erat
+                        volutpat. In hac habitasse platea dictumst. Vivamus at tortor bibendum, sagittis diam eget,
+                        laoreet nunc. Pellentesque tincidunt nec tellus a venenatis. Nullam eget dignissim mauris.</div>
+                    <div class="right"><img
+                            src="images/one-year-bible.jpeg"
+                            alt="">
+                        <div class="purchase"><a href="https://www.amazon.com/One-Year-Bible-NLT/dp/1414302045/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=">Purchase a copy here</a></div></div>
+                </div>
+            </div>
+            <div class="container" id="events">
+                <div class="heading">Upcoming Events</div>
+                <div class="calendar">
+                    <ul>
+                        <li class="event-details">
+                            <div class="date">October 7 - 9</div>
+                            <div class="event">Fall Retreat</div>
+                            <div class="sign"><button id="fall" onclick="window.location='event.html';">Learn more</button></div>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="event-details">
+                            <div class="date">December 7 </div>
+                            <div class="event">Christmas Party</div>
+                            <div class="sign"><button disabled=true id="christmas">Learn more</button></div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>
+    All rights reserved. 2022
+</footer>
+</html>
